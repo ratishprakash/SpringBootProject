@@ -1,0 +1,32 @@
+.main_heading{
+    background-size: 100% 100%;
+    background-repeat: repeat-x;
+    width: 300px;
+    height: 50px;
+    object-fit: cover;
+    object-position: 20px 10px;
+  }
+  .heading{
+    color: #0ec4a6;
+    border-left: 6px solid red;
+    text-indent: 20px;
+    text-shadow: 2px 2px 10px;
+  }
+  body{
+    background-color: #ebfcf3;
+    background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm21-background-tong-058.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=710a6fed5b1923da8d5f95191839ef8a");
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+  .sub_heading{
+    color: #c096f2;
+    text-decoration: underline blue;
+    text-decoration-thickness: 2px;
+  }
+  span.p_h{
+    color: #0ec4a6;
+  }
+  span.p{
+    color: #aa84d9;
+  }
