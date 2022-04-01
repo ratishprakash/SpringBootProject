@@ -2,6 +2,9 @@
   <head>
     <title>Library</title>
     <link rel="stylesheet" type="text/css" href="college_library.css">
+    <script type="text/javascript" src="sample.js"> 
+    </script>
+
   </head>
   <body>
     <center>
@@ -23,8 +26,8 @@
         </a>
     <form >
 <!--           <input type="submit" value="More" ><br> -->
-          <input type="checkbox" id="cart">
-          <label for="cart">Add to cart</label>
+          <input type="checkbox" id="chktick" onclick="sayhello()"> 
+          <label for="chktick">Add to cart</label>
       </form>
       
       
@@ -40,8 +43,8 @@
           
         </a>
         <form>
-          <input type="checkbox" id="cart">
-          <label for="cart">Add to cart</label>
+          <input type="checkbox" id="chktick1" onclick="sayhello1()">
+          <label for="chktick1">Add to cart</label>
       </form>
       
       
@@ -59,7 +62,11 @@
         </a>
     <form >
 <!--           <input type="submit" value="More" ><br> -->
-          <input type="checkbox" id="cart">
-          <label for="cart">Add to cart</label>
+          <input type="checkbox" id="chktick2" onclick="sayhello2()"/>
+          <label for="chktick2">Add to cart</label><br>
+          <label for="total"></label>
+          <input type="button" id="total" onclick="location1()"value="Checkout"/>
       </form>
+      <!-- <button onclick="location1()">Checkout</button> -->
+      <!-- <div id="mydiv"></div> -->
         
