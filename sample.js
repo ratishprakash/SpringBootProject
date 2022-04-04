@@ -29,6 +29,9 @@ function location1(){
     if (inner_count>0){
         remove()
     }
+    if (count==0){
+        alert("No items selected")
+    }
 
     var ul=document.getElementById("list")
     var li=document.createElement("li")
