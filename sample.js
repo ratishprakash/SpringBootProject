@@ -18,15 +18,22 @@ function sayhello2(){
     else 
         count--
 }
+function remove(){
+    var ul=document.getElementById("list")
+    while(ul.hasChildNodes()){
+        ul.removeChild(ul.firstChild);
+    }
+}   
 
 function location1(){
-    // if (inner_count>0){ 
-    //     var ul=document.getElementById("list")
-    //     ul.remove()
-    //     var terms=document.createElement("ul")
-    //     terms.setAttribute('id','list')
-    // }
+    if (inner_count>0){
+        remove()
+    }
+
     var ul=document.getElementById("list")
+    var li=document.createElement("li")
+    li.appendChild(document.createTextNode("Total= "+ count))
+    ul.appendChild(li)
     if(chktick.checked){
         var li=document.createElement("li")
         li.appendChild(document.createTextNode(chktick.name))
@@ -43,6 +50,4 @@ function location1(){
         ul.appendChild(li)
     }
     inner_count++
-    
-    
 }
