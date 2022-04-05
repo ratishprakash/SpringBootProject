@@ -9,3 +9,19 @@ body{
     text-shadow: 2px 2px 10px;
     text-decoration: underline #06f5d1;
 }
+.apple{
+    background: radial-gradient(#ea02a4, rgb(6, 54, 42));
+    background-size: 100% 200%;
+    background-position: 50% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 16px;
+    padding-bottom: 12px;
+    /* animation: fade-in-hero 1.5s ease-out 0.7s 1 forwards */
+    font-size: 80px;
+    line-height: 1.05;
+    font-weight: 700;
+    letter-spacing: -.015em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}  
