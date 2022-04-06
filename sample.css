@@ -25,3 +25,59 @@ body{
     letter-spacing: -.015em;
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }  
+.login{
+    background-color:#fdad01;
+    padding-top: 30px;
+    padding-bottom: 50px;   
+    margin-left: 500px;
+    margin-right: 500px;
+    /* border-style: solid; */
+    /* border-width: 5px; */
+    /* border-color: radial-gradient(#ea02a4, rgb(6, 54, 42)); */
+    /* max-width: 250px; */
+    /* padding: 1rem; */
+    /* color: linear-gradient(to right,#ea02a4, rgb(6, 54, 42) 1,100%); */
+    color:rgb(246, 243, 243);
+    border-width: 3px;
+    border-style:solid;
+    /* border-radius: 25px;  */
+    border-image: 
+      linear-gradient(
+        to bottom, 
+        #ea02a4, 
+        rgb(6, 54, 42)
+      ) 1 100% ; 
+}
+.module {
+    padding-top: 30px;
+    padding-bottom: 50px; 
+    max-width: 250px;
+    padding: 1rem;
+    color: white;
+    border-width: 3px;
+    border-style: solid;
+    border-image: 
+      linear-gradient(
+        to bottom, 
+        red, 
+        rgba(0, 0, 0, 0)
+      ) 1 100%;
+  }
+.login_heading{
+  background-image: radial-gradient(#ea02a4, rgb(6, 54, 42));
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+span.login_heading{
+  background-image: radial-gradient(#ea02a4, rgb(6, 54, 42));
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
