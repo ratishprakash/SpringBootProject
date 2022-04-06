@@ -64,6 +64,7 @@ body{
       ) 1 100%;
   }
 .login_heading{
+  /* display:inline; */
   background-image: radial-gradient(#ea02a4, rgb(6, 54, 42));
   background-size: 100%;
   background-repeat: repeat;
@@ -72,12 +73,4 @@ body{
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
 }
-span.login_heading{
-  background-image: radial-gradient(#ea02a4, rgb(6, 54, 42));
-  background-size: 100%;
-  background-repeat: repeat;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; 
-  -moz-background-clip: text;
-  -moz-text-fill-color: transparent;
-}
+
