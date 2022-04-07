@@ -73,4 +73,7 @@ body{
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
 }
+.new_user{
+  color:rgb(1, 1, 248)
+}
 

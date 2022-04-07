@@ -19,16 +19,20 @@
         }                
 
     </style>
-    <title>Checkout</title>
+    <title>Login Details</title>
     <script type="text/javascript" src="sample2.js">
     </script>
     <script type="text/javascript" src="sample.js"></script>
-    <h1 class="apple"><center>Checkout</center></h1>
+    <script type="text/javascript" src="login_check.js"> </script>
+    <h1 class="apple"><center>Login Details</center></h1>
     </head>
     <body>
-        <!-- <input type="button" value="clickthis" onclick="location1()"/> -->
-        <div id="myDiv">
-        </div>
+        <form>
+            <input type="text" id="new_username" placeholder="New Register Number"><br>
+            <input type="text" id="new_password" placeholder="New password"><br>
+            <input type="button" id="upload" value="Upload" onclick="add_student()"><br>
+            <input type="button" value="display" onclick="display_arr()">
+        </form>
         
     </body>
 
