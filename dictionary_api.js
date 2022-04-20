@@ -7,7 +7,7 @@
 // };
 var uni_count=0
 async function get_meaning(query){
-const api_url="https://www.googleapis.com/books/v1/volumes?q="+query
+const api_url="https://www.googleapis.com/books/v1/volumes?q="+query+"&printType=books"
 const response = await fetch(api_url)
 const myJson= await response.json()
 // console.log(myJson.items[9])
