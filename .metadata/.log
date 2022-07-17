@@ -11033,3 +11033,6 @@ java.lang.Exception: Resource '/CodeJavaApp/src/main/resources/application.prope
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-17 13:05:34.379
 !MESSAGE executing callback sts4.classpath.UvntzbSw SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2022-07-17 13:22:05.721
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
