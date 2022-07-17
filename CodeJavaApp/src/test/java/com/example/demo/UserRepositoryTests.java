@@ -31,7 +31,7 @@ public class UserRepositoryTests {
 		User existUser = entityManager.find(User.class, savedUser.getId());
 		assertThat(existUser.getReg_no()).isEqualTo(user.getReg_no());	
 		
-		
+//		allo world
 	} 
 	
 }
