@@ -1,0 +1,35 @@
+<html xmlns:th="http://www.thymeleaf.org" xmlns:tiles="http://www.thymeleaf.org">
+    <title tiles:fragment="title">Messages : Create</title>
+    <link rel="stylesheet" type="text/css" href="/sample.css">
+  </head>
+        <body>
+            <h1 class="apple"><center>College Library</center></h1>
+            <div class="login"><div class="login2">
+            <h2 class="login_heading"><center>Student Login Details</center></h2>
+           
+            
+            <form name="f" th:action="@{/login}" method="post">   
+                <center>
+                		<div th:if="${param.error}">
+            				<p class="text-danger">[[${session.SPRING_SECURITY_LAST_EXCEPTION.message}]]</p>
+            			</div>
+            			<div th:if="${param.logout}" class="alert alert-success"> 
+                    		You have been logged out.
+                		</div>
+                		<label for="reg_no" class="login_heading" >Register Number: </label><br>
+                        <input type="text" id="reg_no" name="reg_no" placeholder="Register Number" required autofocus/><br>	
+                        <label for="password" class="login_heading">Password: </label><br>
+                        <input type="password" id="password" name="password" placeholder="Password" required/><br>
+                <button type="submit" class="btn">Log in</button><br>
+                </center>
+                <a th:href="@{/register}" style="display:inline"class="new_user" target="_blank">New user?</p>  
+                </form>
+                <form th:action="@{/logout}" method="post">
+                <input type="submit" value="Sign Out"/>
+                </form>
+                
+                </div></div>
+
+        </body>
+
+</html>
