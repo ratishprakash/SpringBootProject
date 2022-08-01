@@ -56,5 +56,11 @@ public class AppController {
 		
 		return "redirect:/";
 	}
-
+	
+	@GetMapping("/Home")
+	public String Home() {
+		return "college_library";
+		
+	}
+	
 }

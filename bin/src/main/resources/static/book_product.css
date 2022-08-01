@@ -78,36 +78,3 @@ a{
 
     text-decoration: none !important;
 }
-.heading {
-	border-radius: 5px;
-    font-family: sans-serif;
-    text-align: center;
-    line-height: 1;
-   -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
-    max-width: 100%;
-    max-height: 300px;
-    padding-top: 10 px;
-    padding-bottom: 10px;
-    /* apple */
-    background: radial-gradient(#3ebdf8, #ea02a4);
-    background-size: 100% 200%;
-    background-position: 50% 100%;
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    margin-top: 16px;
-    padding-bottom: 12px;
-    /* animation: fade-in-hero 1.5s ease-out 0.7s 1 forwards */
-    font-size: 80px;
-    line-height: 1.05;
-    font-weight: 700;
-    letter-spacing: -.015em;
-    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-}
-.nav{
-	font-size: 20px;
-	color: #aa84d9;
-}
-
-

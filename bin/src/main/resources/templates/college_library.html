@@ -1,7 +1,6 @@
-<html xmlns:th="http://www.thymeleaf.org" xmlns:tiles="http://www.thymeleaf.org">
-    <title tiles:fragment="title">Messages : Create</title>
+<html>
   <head>
-   <!-- <title>Library</title> -->
+    <title>Library</title>
     <link rel="stylesheet" type="text/css" href="/college_library.css">
     <link rel="stylesheet" type="text/css" href="/navbar.css">
     <script type="text/javascript" src="/sample.js"> 
@@ -12,12 +11,9 @@
   </head>
   <body>
     <ul class="nav_ul">
+      <li class="nav_li">Home</li>
       <li class="nav_li"><a href="/book_product_test.html" class="nav_a">Book search</a></li>
-      <li class="nav_li"></li>
     </ul>
-    <form th:action="@{/logout}" method="post">
-    	<input type="submit" value="Sign Out"/>
-    </form>
     <center>
     <h1 class="main_heading"><ins>Library Management<ins></h1>
     </center>
